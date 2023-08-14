@@ -45,6 +45,67 @@ In simple terms, DAGsHub is like a magic book where you write down everything yo
 5.  You use security groups to control who can access these instances and which "doors" (ports) they can use.
 6. This helps you collaborate, share, and process machine learning tasks efficiently and securely.
 
+# MLflow integrated with 
+## Dagshub:
+Imagine you're baking a cake with your friends. You have a recipe book (DAGsHub) that everyone can write in. This book keeps track of all the changes and updates to the recipe as you experiment and improve it over time.
+
+Now, MLflow is like a magical baking assistant. Whenever you try a new version of the cake, MLflow takes a picture and notes down all the ingredients and steps you used. It even records how the cake turned out and how people liked it.
+
+Here's how they work together in MLOps:
+
+1. Collaboration with DAGsHub:
+You and your friends work on the cake recipe together. You use DAGsHub to keep everything organized.
+You create a timeline of changes, like adding more chocolate or using different flour. Everyone can see what each person did and why.
+DAGsHub helps you avoid confusion by showing a clear history of your cake-making journey.
+
+2. Tracking with MLflow:
+Every time you bake a cake (train a machine learning model), MLflow takes a snapshot of the process.
+It notes the recipe (model code), ingredients (data), and baking time (parameters). This helps you remember how you made that delicious cake (achieved a good model) later on.
+If the cake turns out great (model performs well), MLflow remembers the details, so you can replicate it in the future.
+
+3. Improving with Both:
+As you keep baking and improving the cake, DAGsHub keeps track of the changes you make, like adding frosting or changing the baking temperature.
+MLflow continues taking pictures and notes, helping you compare different versions of the cake (model iterations) to see which one is the tastiest (best-performing).
+
+Together, DAGsHub and MLflow make MLOps sweet and efficient. DAGsHub helps you work together smoothly, while MLflow captures the magic of each cake-baking session (model training) so you can keep making delicious cakes (building great models) over and over again.
+
+## AWS services (S3 & EC2):
+Imagine you're a chef in a big kitchen, and you're baking special cakes (machine learning models) to serve to your customers. You have a smart way of doing it using three important tools:
+
+- AWS S3 (Simple Storage Service):
+This is like your pantry, where you keep all your ingredients, baking tools, and finished cakes.
+You store your important stuff, like your recipes (machine learning code), fresh ingredients (datasets), and even your beautiful cakes (trained models) in S3.
+It's a secure and organized way to keep everything you need for baking.
+
+- Amazon EC2 (Elastic Compute Cloud):
+Imagine this as your magical oven that can bake multiple cakes at once.
+EC2 lets you create virtual ovens (computers) in the cloud that can handle heavy-duty baking (model training).
+You can start or stop these ovens as needed, depending on how many cakes you're baking (scaling your resources).
+
+- MLflow:
+MLflow is like your assistant chef who keeps a detailed record of each cake you bake.
+When you start baking a cake (training a model), MLflow takes notes of the recipe (code and parameters), measures the ingredients (data), and even takes pictures of the cake (model performance).
+It helps you remember how you baked that delicious cake (created a great model) and lets you compare different cake versions (model iterations).
+
+- Now, let's see how they all work together for MLOps:
+
+1. Preparing the Baking:
+You store your recipes (code) and fresh ingredients (data) in your pantry (S3).
+When you're ready to bake, you set the right temperature and settings for your magical ovens (EC2 instances).
+
+2. Baking the Cakes:
+You put your cake into the oven (train your model on EC2) and let it work its magic.
+While baking, your assistant chef (MLflow) takes notes and pictures of the process.
+
+3. Checking the Results:
+Once the cake is baked (model is trained), you take it out and check how it turned out.
+MLflow shows you the pictures, notes, and details of each cake (model), so you can decide which one is the tastiest (best-performing).
+
+4. Sharing and Enjoying:
+You can share your yummy cakes (models) with others by storing them in the pantry (S3). Others can see your amazing creations and even taste them (use the models) for their own cooking (projects).
+
+In MLOps, this setup makes baking (model training) efficient, organized, and scalable. You have a well-stocked pantry (S3) with all your ingredients, magical ovens (EC2) that can handle any baking task, and your assistant chef (MLflow) who helps you bake and keep track of your delicious creations (models).
+
 # Steps
 ## For Dagshub:
 
