@@ -6,4 +6,4 @@ MLOPS | MLflow project demo: tracking machine learning models.
 
 
 # Documentation
-- mlflow.org/docs
+- https://mlflow.org/docs
