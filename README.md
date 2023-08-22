@@ -40,7 +40,8 @@ python example.py 0.8 0.7
 ```
 Not that the default values of alpha and the l1_ratio will be 0.8 and 0.7 respectively.
 
-Refresh in the MLFLOW UI. Repeat steps and run multiple experiments with different alpha and l1_ratio values.  
+Refresh in the MLFLOW UI. Repeat steps and run multiple experiments with different alpha and l1_ratio values.  The mlruns folder was created on your local machine so you need a remote repository to allow others to
+access your experiments. That is where Dagshub comes to the rescue!
 
 
 #  What is Dagshub?
