@@ -13,6 +13,12 @@ MLflow is an open-source platform that helps manage the end-to-end machine learn
 
 In simple terms, MLflow is like a helpful assistant that keeps track of your machine learning experiments, makes it easy to share and deploy your models, and ensures they keep performing well even after they're out in the wild. It's a tool that helps data scientists and engineers work together to create and manage powerful machine learning applications.
 
+Run the first experiment by typing in the following into the terminal
+```bash
+python example.py 
+```
+Not that the default values of alpha and the l1_ratio will be 0.5.
+
 When you run the script with the mlflow instance, a mlrun folder will be created with
 - saved model.pkl
 - model configuration
@@ -28,6 +34,11 @@ To track experiments in a better looking user interface and export .csv files of
 ```bash
 mlflow ui
 ```
+Run the second experiment by typing in the following into the terminal
+```bash
+python example.py 0.8 0.7
+```
+Not that the default values of alpha and the l1_ratio will be 0.8 and 0.7 respectively.
 
 
 #  What is Dagshub?
