@@ -13,6 +13,13 @@ MLflow is an open-source platform that helps manage the end-to-end machine learn
 
 In simple terms, MLflow is like a helpful assistant that keeps track of your machine learning experiments, makes it easy to share and deploy your models, and ensures they keep performing well even after they're out in the wild. It's a tool that helps data scientists and engineers work together to create and manage powerful machine learning applications.
 
+When you run the script with the mlflow instance, a mlrun folder will be created with
+- saved model.pkl
+- model configuration
+- conda environment configuration
+- metadata file
+- tracking experiment files
+
 #  What is Dagshub?
 DAGsHub is a platform that helps you manage and collaborate on machine learning projects, making it easier to track, share, and reproduce your work. In MLOps (Machine Learning Operations), DAGsHub plays a role in improving collaboration and version control for machine learning projects.
 
