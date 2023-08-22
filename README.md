@@ -34,11 +34,13 @@ To track experiments in a better looking user interface and export .csv files of
 ```bash
 mlflow ui
 ```
-Run the second experiment by typing in the following into the terminal
+Open a new terminal. Run the second experiment by typing in the following into the terminal
 ```bash
 python example.py 0.8 0.7
 ```
 Not that the default values of alpha and the l1_ratio will be 0.8 and 0.7 respectively.
+
+Refresh in the MLFLOW UI. Repeat steps and run multiple experiments with different alpha and l1_ratio values.  
 
 
 #  What is Dagshub?
