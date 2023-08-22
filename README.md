@@ -19,6 +19,7 @@ When you run the script with the mlflow instance, a mlrun folder will be created
 - conda environment configuration
 - metadata file
 - tracking experiment files
+- requirements.txt file (mlflow version and dependancies)
 
 #  What is Dagshub?
 DAGsHub is a platform that helps you manage and collaborate on machine learning projects, making it easier to track, share, and reproduce your work. In MLOps (Machine Learning Operations), DAGsHub plays a role in improving collaboration and version control for machine learning projects.
