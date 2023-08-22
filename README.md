@@ -23,6 +23,13 @@ When you run the script with the mlflow instance, a mlrun folder will be created
 - input parameters (alpha and l1 ratio in this example)
 - output metrics (mae, r2, rmse in this example)
 
+To track experiments in a better looking user interface and export .csv files of all metrics and paramters type the following in the terminal:
+
+```bash
+mlflow ui
+```
+
+
 #  What is Dagshub?
 DAGsHub is a platform that helps you manage and collaborate on machine learning projects, making it easier to track, share, and reproduce your work. In MLOps (Machine Learning Operations), DAGsHub plays a role in improving collaboration and version control for machine learning projects.
 
